@@ -1,0 +1,14 @@
+C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar
+--output-path=obj\MCD\Release\netcoreapp2.0\
+--application-name=CoreCourse.Calendar
+--content-root=C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar
+--file=C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\Views\Calendar\Error.cshtml
+--file=C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\Views\Calendar\Index.cshtml
+--file=C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\Views\Home\About.cshtml
+--file=C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\Views\Home\Contact.cshtml
+--file=C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\Views\Home\Index.cshtml
+--file=C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\Views\Shared\Error.cshtml
+--file=C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\Views\Shared\_Layout.cshtml
+--file=C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\Views\_ViewImports.cshtml
+--file=C:\users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\Views\_ViewStart.cshtml

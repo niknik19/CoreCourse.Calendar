@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\bin\MCD\Release\netcoreapp2.0\CoreCourse.Calendar.deps.json
+C:\Users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\bin\MCD\Release\netcoreapp2.0\CoreCourse.Calendar.runtimeconfig.json
+C:\Users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\bin\MCD\Release\netcoreapp2.0\CoreCourse.Calendar.runtimeconfig.dev.json
+C:\Users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\bin\MCD\Release\netcoreapp2.0\CoreCourse.Calendar.dll
+C:\Users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\bin\MCD\Release\netcoreapp2.0\CoreCourse.Calendar.pdb
+C:\Users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\obj\MCD\Release\netcoreapp2.0\CoreCourse.Calendar.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\obj\MCD\Release\netcoreapp2.0\CoreCourse.Calendar.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\obj\MCD\Release\netcoreapp2.0\CoreCourse.Calendar.AssemblyInfo.cs
+C:\Users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\obj\MCD\Release\netcoreapp2.0\CoreCourse.Calendar.dll
+C:\Users\user\source\repos\CoreCourse.Calendar\CoreCourse.Calendar\obj\MCD\Release\netcoreapp2.0\CoreCourse.Calendar.pdb

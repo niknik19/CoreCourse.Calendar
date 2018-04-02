@@ -1,0 +1,95 @@
+﻿@using System
+@using CoreCourse.Calendar.Service
+
+@model CalendarMonth
+
+@functions {
+
+    public string GetClassAttribute(CalendarDayType calendarGetType)
+    {
+        var classes = String.Empty;
+
+        if ((calendarGetType & CalendarDayType.Holiday) != CalendarDayType.None)
+        {
+            classes = AddClass(classes, "holiday");
+        }
+
+        if ((calendarGetType & CalendarDayType.Selected) != CalendarDayType.None)
+        {
+            classes = AddClass(classes, "selected");
+        }
+
+        return classes;
+    }
+
+    private string AddClass(string classes, string @className)
+    {
+        if (classes != String.Empty)
+        {
+            classes += " ";
+        }
+        classes += className;
+        return classes;
+    }
+
+}
+
+@if (Model == null)
+{
+    <h2>Sorry, calendar can not be viewed</h2>
+}
+else
+{
+    <table class="calendar">
+        <thead>
+            <tr><th colspan="7">@Model.MonthName @Model.Year</th></tr>
+
+            <tr>
+                @foreach (var dayOfWeek in CalendarWeek.WeekDays)
+        {
+            <th>@dayOfWeek</th>
+}
+            </tr>
+        </thead>
+
+        @foreach (var week in Model.Weeks)
+        {
+            <tr>
+                @foreach (var dayOfWeek in CalendarWeek.WeekDays)
+                {
+                    <td class="@GetClassAttribute(week[dayOfWeek].Type)">
+                        @week[dayOfWeek].Value
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+}
+
+
+<style>
+    .calendar th {
+        border: 1px solid black;
+        width: 75px;
+        text-align: center;
+        height: 30px;
+    }
+
+    .calendar td {
+        border: 1px solid black;
+        width: 66px;
+        text-align: center;
+        height: 50px;
+        padding-left: 40px;
+        padding-bottom: 13px;
+        font-size: 25px;
+    }
+
+    td.selected {
+        font-weight: bold;
+    }
+
+    td.holiday { 
+        color: red;
+    }
+</style>

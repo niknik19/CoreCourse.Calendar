@@ -1,0 +1,17 @@
+﻿@using CoreCourse.Calendar.Service
+
+@model CalendarValidationResult
+
+<h2>There are some errors in request</h2>
+
+<ul>
+    @foreach (var errorMessage in Model.ErrorMessages)
+    {
+        <li>
+            <h3>
+                @errorMessage
+            </h3>
+        </li>
+    }
+</ul>
+
